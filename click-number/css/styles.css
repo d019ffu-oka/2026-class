@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+.circle {
+    position: absolute;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rainbow {
+    animation: rainbowFlash 1s linear infinite;
+}
+
+@keyframes rainbowFlash {
+    0%   { background-color: red; }
+    16%  { background-color: orange; }
+    33%  { background-color: yellow; }
+    50%  { background-color: green; }
+    66%  { background-color: blue; }
+    83%  { background-color: indigo; }
+    100% { background-color: violet; }
+}
